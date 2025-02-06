@@ -10,14 +10,12 @@ p{
     font-size: 25px;
     text-align: center;
 }
-img{
-    width: 100%;
-    
-}
+
 main{
-   display: grid; 
-   grid-template-columns: 25% 25% 25% 25%;
-   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 div{
     display: inline-block;
