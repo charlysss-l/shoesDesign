@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+  
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+img{
+    width: 100%;
+    
+}
+main{
+   display: grid; 
+   grid-template-columns: 25% 25% 25% 25%;
+   justify-content: center;
+}
+div{
+    display: inline-block;
+}
+footer p{
+    text-align: center;
+}
